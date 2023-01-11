@@ -24,8 +24,12 @@ label start:
 
     # These display lines of dialogue.
 
+
     e "PP grossi"
     e "UwU Big PP"
+    e "I'm a big PP"
+    e "https://www.youtube.com/watch?v=fm4fLvDPv0Y"
+    e "https://www.youtube.com/watch?v=3fHl9bxVT58"
 
 
     # This ends the game.
