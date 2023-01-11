@@ -25,6 +25,7 @@ label start:
     # These display lines of dialogue.
 
     e "PP grossi"
+    e "UwU Big PP"
 
 
     # This ends the game.
