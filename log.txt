@@ -1,34 +1,219 @@
-Wed Jan 11 22:26:47 2023
-Windows-10-10.0.19041
-Ren'Py 7.4.11.2266
+Fri Jan 13 00:17:37 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
  
 
-Bootstrap to the start of init.init took 0.08s
+Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 4: expected statement.
+    ​image bg origins = im.Scale("images/bg_origins.jpg", 1280, 720)
+                      ^
+
+File "game/script.rpy", line 56: expected statement.
+    ​image imageScale = im.Scale("images/image.jpg", 1280, 720)
+                      ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 22.11.2.221130'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2712, 1526) drawable=(2712, 1526)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 9.95s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.12s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 4: expected statement.
+    ​image bg origins = im.Scale("images/bg_origins.jpg", 1280, 720)
+                      ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 22.11.2.221130'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2712, 1526) drawable=(2712, 1526)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 44.92s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 4: expected statement.
+    ​image bg origins = Image("images/bg_origins.jpg", 1280, 720)
+                      ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 22.11.2.221130'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2712, 1526) drawable=(2712, 1526)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 97.75s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
 Loading script took 0.10s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
+
+File "game/script.rpy", line 5: expected statement.
+    ​image bg origins = im.Scale("images/bg_origins.jpg", 1280, 720)
+                      ^
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 22.11.2.221130'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2712, 1526) drawable=(2712, 1526)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 330.31s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.11s
+Loading save slot metadata. took 0.00s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+Backing up script files to 'C:\\Users\\aless\\AppData\\Roaming/RenPy/backups\\Sesso':
 Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
+Initial gc. took 0.02s
+DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.22s
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 3840, 2160)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 22.11.2.221130'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2712, 1526) drawable=(2712, 1526)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 35, in script
+    AR "Ciao!"
+  File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 889, in execute
+    statement_name(stmt_name)
+  File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 47, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+  File "D:\renpy-8.0.3-sdk\renpy\exports.py", line 1657, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "D:\renpy-8.0.3-sdk\renpy\display\core.py", line 2798, in do_with
+    return self.interact(trans_pause=True,
+  File "D:\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 495, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\transition.py", line 377, in render
+    bottom = render(self.old_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\transform.py", line 747, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\motion.py", line 499, in render
+    raise Exception("Zoom rectangle %r falls outside of %dx%d parent surface." % ((rx, ry, rw, rh), rend.width, rend.height))
+Exception: Zoom rectangle (0.0, 0.0, 800.0, 600.0) falls outside of 1024x576 parent surface.
+
+While running game code:
+  File "game/script.rpy", line 35, in script
+    AR "Ciao!"
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+Exception: Zoom rectangle (0.0, 0.0, 800.0, 600.0) falls outside of 1024x576 parent surface.
+Screen sizes: virtual=(1920, 1080) physical=(2880, 1526) drawable=(2880, 1526)
+Maximum texture size: 4096x4096

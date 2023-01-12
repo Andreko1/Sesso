@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 5: expected statement.
+    ​image bg origins = im.Scale("images/bg_origins.jpg", 1280, 720)
+                      ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Fri Jan 13 00:19:15 2023
