@@ -26,6 +26,7 @@ init:
     image zeb:
         "images/zeb_culoh.jpg"
         zoom 1.2
+    $ AR_angry = False
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
@@ -37,21 +38,23 @@ define Z= Character("Zeb", color="#000000")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    # Show a background.
 
     scene bg origins
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    # This should play music
+
+    $ renpy.music_start("music/nostalgia_di_un_record.mp3")
+
+    # This shows "Astolfo" character sprite.
 
     show astolfo profile
 
     # These display lines of dialogue.
 
     AR "Ciao!"
+
+    # This hide the character sprite, used 
 
     hide astolfo profile
 
@@ -81,7 +84,7 @@ label start:
 
     hide zeb
 
-    show astolfo shocked #non funzia, adesso che ho modificato forse funzia
+    show astolfo shocked 
 
     AR "Oh no! è quello youtuber che ha perso rilevanza perchè è più testardo di un toro ma manipolato dalla sua fidanzata!"
 
@@ -149,9 +152,28 @@ label start:
 
             AR "Grazie per le cure, anche se avrei preferito un aiuto in battaglia"
 
-            "L'episodio finisce con il sium"
+            hide astolfo angry
+
+            "Astolfo se ne ricorderà"
+
+            $ AR_angry = True
+
+    if AR_angry == True:
+    
+        show astolfo angry
+
+        AR "E ricordati che ti avrò in pugno se non mi aiuterai la prossima volta"
+
+        "Babbabia, copilot > Rito gayms"
+    
 
 
+
+
+    
+    # This should end the background music started early
+
+    $ renpy.music_stop()
 
     # This ends the game.
     return
